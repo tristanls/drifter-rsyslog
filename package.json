@@ -1,0 +1,32 @@
+{
+  "name": "drifter-rsyslog",
+  "version": "0.0.0",
+  "description": "rsyslog plugin for drifter",
+  "bin": {
+    "drifter-rsyslog": "bin/cli.js"
+  },
+  "scripts": {
+    "inject-examples": "node scripts/injectExamples.js",
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.x"
+  },
+  "dependencies": {
+    "clie": "0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/drifter-rsyslog.git"
+  },
+  "keywords": [
+    "log",
+    "collection",
+    "infrastructure",
+    "rsyslog",
+    "plugin"
+  ],
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}

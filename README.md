@@ -17,6 +17,8 @@ _Stability: 1 - [Experimental](https://github.com/tristanls/stability-index#stab
 
 ## Usage
 
+    npm install -g drifter-rsyslog
+
     /path/to/drifter-rsyslog send http://localhost:8080
 
 ## Tests

@@ -1,6 +1,6 @@
 {
   "name": "drifter-rsyslog",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "rsyslog plugin for drifter",
   "bin": {
     "drifter-rsyslog": "bin/cli.js"
